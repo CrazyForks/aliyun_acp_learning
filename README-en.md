@@ -139,7 +139,7 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">15%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">LLM Retrieval Augmentation</td>
+    <td style="padding:10px; border: 1px solid #ddd;">LLM Retrieval-Augmented Generation</td>
     <td style="padding:10px; border: 1px solid #ddd;">20%</td>
   </tr>
   <tr>
