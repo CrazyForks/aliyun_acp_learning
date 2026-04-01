@@ -1,5 +1,18 @@
 # Release Notes
 
+## V2.3.0 新增 Agent Skills 章节
+> 变更时间：2026.03.27
+
+当 Agent 需要完成复杂的专业任务时，仅靠工具调用往往不够——每次都要在提示词中重复描述流程、规则和注意事项。本次更新引入 **Skill** 机制，帮助学员将反复使用的专家经验提炼为可复用的结构化指令，让 Agent 像掌握一项"技能"一样自主完成专业任务，而不仅仅是调用工具。
+
+**新增/优化内容示例**
+
+| Skill 的结构设计 | 从编写到验证的完整方法 | 评测驱动的迭代闭环 |
+| --- | --- | --- |
+| <img src="大模型ACP认证教程/p2_构造大模型问答系统/illustrations/skill-design/02-framework-skill-anatomy.png" width="600"> | <img src="大模型ACP认证教程/p2_构造大模型问答系统/illustrations/skill-design/03-process-skill-development-5-steps.png" width="600"> | <img src="大模型ACP认证教程/p2_构造大模型问答系统/illustrations/skill-design/07-process-dual-agent-evaluation.png" width="600"> |
+
+<hr style="border: 2px solid black;">
+
 ## V2.2.0 重构 Agent 章节
 > 变更时间：2025.11.14
 
