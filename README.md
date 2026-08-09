@@ -1,6 +1,6 @@
-[English](./README-en.md) | 简体中文
-
 # 阿里云大模型ACP教程
+
+🇺🇸 [English](./README-en.md) | 🇨🇳 简体中文
 
 <img src="https://gw.alicdn.com/imgextra/i1/O1CN01xol8Y21oUw1VeGgbZ_!!6000000005229-0-tps-1096-569.jpg" alt="main" width="800px">
 
@@ -159,7 +159,7 @@
 
 
 
-## 💯 考试大纲 (即将更新)
+## 💯 考试大纲
 
 带着目的学习可以提升学习效率。在开始课程之前，请了解大模型ACP认证的考试大纲，将更有利于你的课程学习。
 ### 🌟 考试知识点分布
@@ -202,72 +202,76 @@
 </table>
 
 ### 🌟 考试大纲
-<table>
-<thead>
- <tr>
-    <td width="140px" style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">主要章节</td>
-    <td width="300px" style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">主要内容</td>
-    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">考察知识点</td>
- </tr>
- </thead>
- <tbody>
-  <tr>
-    <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型应用开发</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 通过OpenAI API调用大模型 <br>• 了解大模型的工作原理</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 基本API参数如model、temperature、top_p等等 <br>• 批量生成与流式生成 <br>• 理解消息与对话历史</td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型提示词工程</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建有效的提示词</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 提示词框架如提示词要素、提示词分隔符、提示词模板 <br>• 理解系统角色提示词的作用</td>
-  </tr>
-    <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">利用大模型处理各类任务</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 理解大模型的适用场景<br>• 利用大模型开发应用（如批量对员工咨询做意图分类、用大模型做文档审阅、实现针对问题的自动文档修订）</td>
-  </tr>
-   <tr>
-    <td rowspan="3" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型检索增强</td>
-    <td style="padding:10px; border: 1px solid #ddd;">通过LlamaIndex构建RAG应用的基本使用方法</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 理解RAG的核心要素，如文件解析、文本切片、段落召回、段落重排序。<br>• 理解对RAG做召回优化如句子窗口检索、自动合并检索等等。</td>
-  </tr>
-<tr>
-    <td style="padding:10px; border: 1px solid #ddd;">持续优化检索增强能力</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 理解更贴近实战的RAG优化方法如优化文本解析、标题改写优化、表格内容增强、文本分割方法对比等等</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">对检索增强的能力做自动化评测</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 了解RAGAS指标体系<br>• 懂得RAG系统的评测方法。</td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型的微调</td>
-    <td style="padding:10px; border: 1px solid #ddd;">微调的概念与要求</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 微调的作用、前提、基本步骤、常用算法</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">微调的实验与评测</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 微调数据集构建、微调参数介绍、微调模型评测</td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">智能体与应用</td>
-    <td style="padding:10px; border: 1px solid #ddd;">基于百炼API构建智能体</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 理解智能体运行机制<br>• 构造复杂工作流和多智能体应用</td>
-    </tr>
-    <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。<br>• 了解AI在医疗、教育、娱乐等行业的实际应用。
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">生产环境应用实践</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 在云上部署微调模型的基本方案<br>• 在云服务如（ECS、FC、PAI）中部署模型<br>• 在百炼上部署模型</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 掌握如何使用vLLM进行大模型的部署操作<br>• 了解如何利用云服务如函数计算（FC）实现AI助手的快速发布</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">大模型应用发布至生产环境的关键要素</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 了解如何平衡大模型应用的性能和运行成本<br>• 了解如何提升大模型应用的稳定性<br>• 了解如何保障大模型应用安全合规</td>
-  </tr>
-  </tbody>
-</table>
+
+
+### 1. 大模型应用开发
+
+**主要考察内容**：通过 API 调用构建大模型应用的基础能力，包括理解大模型工作原理、核心参数调优、对话管理和成本意识。
+
+**核心知识点**：
+- 大模型基本工作方式
+- 核心参数与输出控制
+- 多轮对话与流式输出
+- 上下文窗口与幻觉缓解
+- API 安全管理与 Token 计费
+
+### 2. 大模型提示词工程
+
+**主要考察内容**：通过提示词设计提升大模型输出质量的能力，包括系统提示词设计、进阶提示技巧和场景化应用。
+
+**核心知识点**：
+- 系统提示词设计
+- 上下文工程
+- 思维链、Meta Prompting、Few-shot
+- 结构化输出与格式控制
+- 提示词的适用边界与局限
+
+### 3. 大模型检索增强
+
+**主要考察内容**：RAG 检索增强生成的全链路设计与优化能力，包括索引构建、检索策略、质量诊断和知识库运维。
+
+**核心知识点**：
+- RAG 全链路：索引、检索、增强、生成
+- 文本切分策略与检索质量
+- 检索效果诊断与重排序
+- 多轮对话场景下的检索适配
+- 知识库运维：更新、权限、版本管理
+
+### 4. 大模型微调
+
+**主要考察内容**：微调与蒸馏的适用判断、训练基础概念和实操能力，包括何时该微调、怎么训练、怎么评估效果。
+
+**核心知识点**：
+- 微调适用场景判断
+- 训练基础：梯度下降、损失函数、过拟合与欠拟合
+- LoRA 微调与训练调参
+- 蒸馏路径：数据合成、知识蒸馏、推理压缩
+- 训练数据合成与成本收益分析
+
+### 5. 智能体应用开发
+
+**主要考察内容**：构建 Agent 系统的核心能力，包括工具调用、任务规划、多 Agent 协作、记忆与能力固化，以及多模态应用的架构设计。
+
+**核心知识点**：
+- Function Calling 机制与 JSON Schema 设计
+- ReAct 循环与 MCP 协议
+- Plan & Execute、任务依赖与固定流程 vs 自主规划的选型
+- SubAgent 分层协作模式
+- 四类记忆体系与 Skill 能力固化
+- Harness Engineering 核心闭环
+- 多模态 API 调用与端到端应用架构
+
+### 6. 生产环境应用实践
+
+**主要考察内容**：将大模型应用交付到生产环境的工程能力，包括部署与成本控制、安全防护与合规、评测驱动与业务判断。
+
+**核心知识点**：
+- 部署方案选型
+- 推理成本控制
+- 生产稳定性保障
+- 安全体系：内容安全、注入防护、纵深防御、合规备案
+- 评测驱动开发
+- RIDE 方法论与 AI 应用选点
 
 本考纲旨在为考生提供考试内容的普遍方向，考试范围不仅限于文中提及的部分，可能还包括其他相关未列明的内容。
 
@@ -312,3 +316,22 @@ pip install -r requirements.txt
 
 如果你在学习过程中遇到任何问题，欢迎你[通过问卷提交评价和反馈学习体验](https://survey.aliyun.com/apps/zhiliao/Mo5O9vuie)。
 你的批评和鼓励都是我们前进的动力！
+
+## 📈 Star History
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://api.star-history.com/chart?repos=AlibabaCloudDocs/aliyun_acp_learning&type=date&theme=dark"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://api.star-history.com/chart?repos=AlibabaCloudDocs/aliyun_acp_learning&type=date"
+  />
+  <img
+    alt="Star History Chart"
+    src="https://api.star-history.com/chart?repos=AlibabaCloudDocs/aliyun_acp_learning&type=date"
+  />
+</picture>
+
+如果这个项目对你有帮助，请给个 Star ⭐️ 吧！
