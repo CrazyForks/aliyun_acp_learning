@@ -317,21 +317,6 @@ pip install -r requirements.txt
 如果你在学习过程中遇到任何问题，欢迎你[通过问卷提交评价和反馈学习体验](https://survey.aliyun.com/apps/zhiliao/Mo5O9vuie)。
 你的批评和鼓励都是我们前进的动力！
 
-## 📈 Star History
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://api.star-history.com/chart?repos=AlibabaCloudDocs/aliyun_acp_learning&type=date&theme=dark"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://api.star-history.com/chart?repos=AlibabaCloudDocs/aliyun_acp_learning&type=date"
-  />
-  <img
-    alt="Star History Chart"
-    src="https://api.star-history.com/chart?repos=AlibabaCloudDocs/aliyun_acp_learning&type=date"
-  />
-</picture>
+---
 
 如果这个项目对你有帮助，请给个 Star ⭐️ 吧！
